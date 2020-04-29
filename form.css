@@ -1,0 +1,223 @@
+
+body{
+	background-image: url("images/formbg.jpg");
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.icon{
+margin-top: 30px;
+margin-left: 0 auto;
+margin-right: 0 auto;
+max-width: 100%;
+text-align: center;
+}
+.content{
+	font-family: sans-serif;
+	font-size: 40px;
+    text-align: center;
+}
+.list{
+ width: 80%;
+}
+.list ul{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.list ol{
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.form-border{
+	background-image: url("images/formbg1.jpg");
+    margin: auto;
+    text-align: center;
+	font-size: 20px;
+	box-sizing: border-box;
+	width: 80%;
+    height: 600px;
+    padding: 30px;  
+    border: 5px solid red;
+    border-top: 70px solid red;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 80px;
+}
+.form-border h3{
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: -75px;
+	text-align: left;
+}
+.form{
+	font-family: sans-serif;
+	font-size: 15px;
+    line-height: 50px;
+	text-align: left;
+
+}
+.scholarship{
+	text-align: left;
+	line-height: 50px;
+}
+.Hostel{
+	text-align: left;
+	margin-top: 0.7em;
+	font-size: 15px;
+}
+
+.form-border2{
+	background-image: url("images/formbg1.jpg");
+	font-size: 20px;
+	margin: auto;
+	padding: 30px;
+	text-align: left;
+	box-sizing: border-box;
+	border: 5px solid orange;
+	border-top: 70px solid orange;
+	border-radius: 5px 5px 5px 5px;
+	width: 80%;
+	height: 650px;
+	margin-bottom: 80px;
+}
+.form-border2 h3{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	font-family: white;
+	margin-top: -75px;
+	text-align: left;
+}
+.program-intake{
+	text-align: left;
+	line-height: 50px;
+}
+.name{
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-top: 50px;
+	text-align: left;
+	line-height: 20px;
+}
+.age{
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: left;
+	line-height: 20px;
+}
+.gender{
+	font-size: 15px;
+	font-family: sans-serif;
+	text-align: left;
+	line-height: 35px;
+}
+.email{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+	text-align: left;
+}
+.address{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.mobile{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.housephone-number{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.ic{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.area{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.state{
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.postcode{
+    font-size: 15px;
+	font-family: sans-serif;
+	line-height: 20px;
+}
+.form-border3{
+	background-image: url("images/formbg1.jpg");
+	font-size: 20px;
+	margin: auto;
+	padding:30px;
+	text-align: left;
+	box-sizing: border-box;
+	border: 5px solid blue;
+	border-top: 70px solid blue;
+	border-radius: 5px 5px 5px 5px;
+	width: 80%;
+	height: 650px;
+	margin-bottom: 80px;
+}
+.form-border3 h3{
+  font-size: 18px;
+	color: white;
+	font-family: sans-serif;
+	margin-top: -75px;
+	text-align: left;
+}
+.school{
+	font-family: sans-serif;
+	margin-top: 50px;
+    font-size: 18px;
+	font-family: sans-serif;
+	line-height: 30px;
+	text-align: left;
+}
+input{
+	width: 100%;
+}
+.radio input{
+	width: 5%;
+}
+.Hostel input{
+	width: 5%;
+}
+.gender input{
+	width: 5%;
+}
+.grade select{
+	width: 31%;
+}
+select{
+	width: 100.5%;
+}
+.subject{
+	line-height: 50px;
+	margin-bottom: 15px;
+}
+.subject select{
+	display: inline-flex;
+	width: 40%;
+}
+.subjects{
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: left;
+}
+.Qualification select{
+	text-align: left;
+	line-height: 40px;
+    width: 100%;
+}
+.button{
+	text-align: center;
+	line-height: 80px;
+}

@@ -1,0 +1,26 @@
+.contact{
+	border-top: 2px solid red;
+	position: absolute;
+	right: 10%;
+   overflow: hidden;
+   width: 80%;
+	height: 80%;
+	bottom: -60%;
+	line-height: 20px;
+   color: white;
+   font-size: 25;
+   font-family: sans-serif;
+    z-index: 0;
+	box-sizing: border-box;
+	border: 5px solid black;
+
+}
+.contact input{
+	width: 80%;
+}
+.contact textarea{
+ width: 80%;
+}
+.contact button{
+	display: flex;
+}

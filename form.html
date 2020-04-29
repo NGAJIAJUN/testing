@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie-edge">
+	 <link rel="stylesheet" type="text/css" href="form.css">
+	<title>Form</title>
+</head>
+<body>
+	<div class="content">
+		<img src="images/southern.png" class="icon">
+	<p>Online Registration</p>
+   </div>
+
+<div class="list">
+<ul>Instructions:
+<ol>1.This form contains three (3) parts, please fill out this form before submission.</ol>
+<ol>2.The required fields are marked in red asterisk ().</ol>
+<ol>3.Kindly please check and make sure contact informations are correct, our staff will use these information to get in touch with you.</ol>
+<ol>4.No amendment is allowed after you submit your application.</ol>
+</ul>
+</div>
+
+ <form action="results.html" method="GET" enctype="multipart/form-data">
+  <div class="form-border">
+	<h3>1. Intake & choice </h3>
+
+    <div class="form">
+        <div class="radio">
+  	      <label name="Year/Intake"><b>Intake and programme</b></br>Please select intake year and intake</label>
+  	      <input type="radio" name="Year/Intake" id="YearIntake" >2020/JUNE
+        </div>
+    </div>
+          
+          <hr>
+
+          <div class="program-intake">
+          <label for name="Choice of Programme">Choice of Programme-</label><br>
+          		<select name="program" id=program>
+          			<option value="none">Click to Choose</option>
+          			<option value="it">Diploma-Information Technology (IT)</option>
+          			<option value="bc">Bachelor of Arts In Business</option>
+          			<option value="bi">Diploma-Business Information</option>
+          			<option value="M">Diploma-Marketing</option>
+          			
+          		</select>
+           </div>
+
+           <hr>
+
+           <div class="scholarship">
+           	<label for name="Scholarship">Scholarship-</label><br>
+           	    <select>
+           	    	<option value="name">None</option>
+           	    	<option value="name">Excellent Student Full Scholarship</option>
+           	    	<option value="name">Multi-Cultural Scholarship</option>
+           	    	<option value="name">New Student Scholarship</option>
+           	    </select>
+           </div>
+
+           <hr>
+
+           <div class="Hostel">
+           	<label for name="Hostel">Hostel-</label><br><br>
+           	<input type="radio" name="Hostel" id="Hostel">Yes
+           </div>
+
+           <div class="Hostel">
+           	<label for name="Hostel"></label><br>
+           	<input type="radio" name="Hostel" id="Hostel">No
+           </div>
+    
+</div>
+  <div class="form-border2">
+  	<h3>2. Personal Infotmation</h3>
+
+<div class="personal">
+  	<div class="name">
+  		<label for name="Name">Chinese name-</label><br>
+  		<input type="text" name="Name" id="Name" placeholder="Your Name"><br>
+
+  		<label for name="Name">English  name-</label><br>
+  		<input type="text" name="Name" id="Name" placeholder="Your Name">
+    </div>
+
+  	<div class="age">
+  		<label for name="age">age-</label><br>
+  		<input type="number" name="age" id="age" placeholder="Your Age" min="1" max="99" step="1">
+    </div>
+
+    <div class="gender">
+    	<label for name="gender">Gender-<br>
+    		<input type="radio" name="gender" id="gender">Male
+    		<input type="radio" name="gender" id="gender">Female
+    	</label>
+    </div>
+
+    <div class="email">
+    	<label for name="email">Email-<br>
+    		<input type="email" name="email" id="email" required>
+    	</label>
+    </div>
+
+    <div class="address">
+    	<label for name="address">Address-<br>
+    		<input type="address" name="adress" id="address" required>
+    	</label>
+    </div>
+
+     <div class="mobile">
+    	<label for name="mobile">Mobile number-<br>
+    		<input type="tel" name="mobile" id="mobile" required>
+    	</label>
+    </div>
+
+    <div class="housephone-number">
+    	<label for name="housephone-number">House phone number-<br>
+    		<input type="tel" name="housephone-number" id="housephone-number" required>
+    	</label>
+    </div>
+
+    <div class="ic">
+    	<label for name="ic">NRIC No-<br>
+    		<input type="number" name="ic" id="ic" required>
+    	</label>
+    </div>
+
+    <div class="area">
+    	<label for name="area">Area-<br>
+    		<input type="text" name="area" id="area" required>
+    	</label>
+    </div>
+
+    <div class="state">
+    	<label for name="state">State-<br>
+    		<select>
+    			<option value="none">Click to Choose</option>
+    			<option value="Johor">Johor</option>
+    			<option value="Melaka">Melaka</option>
+    			<option value="Kuala Lumpur">Kuala Lumpur</option>
+    			<option value="Sarawak">Sarawak</option>
+    			<option value="Sabah">Sabah</option>
+    			<option value="Negeri-Sembilan">Negeri-Sembilan</option>
+    			<option value="Pulau-Pinang">Pulau-Pinang</option>
+                <option value="Kedah">Kedah</option>
+    			<option value="Terrenganu">Terrenganu</option>
+    			<option value="Putra-Jaya">Putra-Jaya</option>
+    			<option value="Pahang">Pahang</option>
+    			<option value="Perak">Perak</option>
+    			<option value="Perlis">Perlis</option>
+    			<option value="Labuan">Labuan</option>
+    			<option value="Other">Other</option>
+    		</select>
+    	</label>
+    </div>
+    <div class="postcode">
+    	<label for name="postcode">Postcode-</label><br>
+    		<input type="number" name="postcode" id="postcode" required>
+    </div>
+  </div>
+</div>
+
+
+   <div class="form-border3">
+  	<h3>3. Certificate & Grades</h3>
+    <div class="school">
+    	<label for name="Secondary school">Certificate</label><br>
+    	<div class="grade">
+    		<select>
+    			<option value="none">Click to Choose</option>
+    			<option value="Johor">Johor</option>
+    			<option value="other">Other</option>
+    		</select>
+
+    		<select>
+    			<option value="none">Click to Choose</option>
+    			<option value="SMK">SMK Taman Selesa Jaya 2</option>
+    			<option value="none">Other</option>
+    		</select>
+
+    		<select>
+    	     <option value="none">Click to Choose</option>
+    		 <option value="2020">2020</option>
+    		 <option value="2019">2019</option>
+    		 <option value="2018">2018</option>
+    		 <option value="2017">2017</option>
+    		 <option value="2016">2016</option>
+    		 <option value="2015">2015</option>
+    		 <option value="2014">2014</option>
+    		 <option value="2013">2013</option>
+    		 <option value="2012">2012</option>
+    		 <option value="2011">2011</option>
+    		 <option value="2010">2010</option>
+    	</select>
+    </div>
+
+    	<label for name="subject">Subject</label>
+    	<div class="subject">
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+    		<option value="English">English</option>
+    		<option value="Chinese">Chinese</option>
+    		<option value="Sejarah">Sejarah</option>
+    		<option value="Mathemathic">Mathemathic</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="A">A</option>
+    		<option value="B">B</option>
+    		<option value="C">C</option>
+    		<option value="D">D</option>
+    		<option value="E">E</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+    		<option value="English">English</option>
+    		<option value="Chinese">Chinese</option>
+    		<option value="Sejarah">Sejarah</option>
+    		<option value="Mathemathic">Mathemathic</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="A">A</option>
+    		<option value="B">B</option>
+    		<option value="C">C</option>
+    		<option value="D">D</option>
+    		<option value="E">E</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+    		<option value="English">English</option>
+    		<option value="Chinese">Chinese</option>
+    		<option value="Sejarah">Sejarah</option>
+    		<option value="Mathemathic">Mathemathic</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="A">A</option>
+    		<option value="B">B</option>
+    		<option value="C">C</option>
+    		<option value="D">D</option>
+    		<option value="E">E</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+    		<option value="English">English</option>
+    		<option value="Chinese">Chinese</option>
+    		<option value="Sejarah">Sejarah</option>
+    		<option value="Mathemathic">Mathemathic</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="A">A</option>
+    		<option value="B">B</option>
+    		<option value="C">C</option>
+    		<option value="D">D</option>
+    		<option value="E">E</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="Bahasa Malaysia">Bahasa Malaysia</option>
+    		<option value="English">English</option>
+    		<option value="Chinese">Chinese</option>
+    		<option value="Sejarah">Sejarah</option>
+    		<option value="Mathemathic">Mathemathic</option>
+    	</select>
+
+    	<select>
+    		<option value="none">Click to Choose</option>
+    		<option value="A">A</option>
+    		<option value="B">B</option>
+    		<option value="C">C</option>
+    		<option value="D">D</option>
+    		<option value="E">E</option>
+    	</select>
+    </div>
+  </div>
+
+     <div class="subjects">
+     	
+     	<div class="Qualification">
+     	<label for name="subject">Qualification-</label>
+     	  <select>
+     	  	<option value="none">Click to Choose</option>
+     	  	<option value="UPSR">UPSR</option>
+            <option value="SPM">SPM</option>
+            <option value="A-Level">A-Level</option>
+            <option value="STPM">STPM</option>
+            <option value="O-Level">O-Level</option>
+            <option value="UEC">UEC</option>
+            <option value="PT3/PMR">PT3/PMR</option>
+         </select>
+ 
+
+   <div class="button">
+     <button type="reset">Reset</button>
+     <button tupe="submit">Submit</button>
+    </div>
+    </form>
+ 
+</body>
+</html>

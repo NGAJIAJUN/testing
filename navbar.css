@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+html body{
+	margin: 0;
+	padding: 0;
+	background-color: #1f1f1f;
+}
+.navbar{
+	z-index: 2;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	color:white;
+}
+.Brand{
+ font-family: impact;
+ font-size: 1.5rem;
+ margin: .5rem;
+ 
+}
+.navbar-link ul{
+ margin: 0;
+ padding: 0;
+ display: flex;
+ margin-right: 90px;
+
+}
+.navbar-link li{
+	list-style: none;
+	width: 30%;
+}
+.navbar-link li a{
+	text-align: center;
+	 text-decoration: none;
+	 color: white;
+	 padding: 0.5rem;
+	 display: flex;
+	 margin-right: 50px;
+	 margin-left: 50px;
+    
+}
+.navbar-link li:hover {
+ background-color: blue;
+}
+.toggle-button{
+	top: .75rem;
+	position: absolute;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+  .toggle-button{
+  	display: flex;
+  }
+
+  .navbar-link{
+  	display: none;
+  	width: 100%;
+  }
+
+  .navbar{
+  	flex-direction: column;
+  	align-items: flex-start;
+  }
+
+  .navbar-link ul{
+  	width: 100%;
+  	flex-direction: column;
+  }
+
+  .navbar-link li{
+  	text-align: center;
+  }
+
+  .navbar-link li a{
+  	padding: .5rem 1rem;
+  }
+
+  .nav-link.active{
+  	display: flex;
+  }
+}
